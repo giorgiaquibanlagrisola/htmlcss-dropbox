@@ -26,8 +26,9 @@ html {
 
 
 .full-container.main {
-    background-color: blueviolet;
+    background-color: #B4D0E7;
 }
+
 .full-container.footer {
     background-color: gray;
 }
@@ -37,8 +38,14 @@ html {
     margin: 0 auto;
     background-color: blue;
 
-    height: 300px;
+    min-height: 300px;
 }
+.container.table {
+    background-color: yellow;
+    
+}
+
+
 
 /*
     HEADER
@@ -51,7 +58,7 @@ html {
 }
 .main-nav nav ul li {
     display: inline-block;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 .main-nav nav ul li a {
@@ -65,10 +72,44 @@ html {
     MAIN
 */
 
+.container.title {
+    background-color: red;
+    transform: translateY(35px);
+}
+
+/*
+h1 {
+    font-size: 400%;
+}
+*/
+
+.jumbo-container {
+   /* position: relative;*/
+    top: 10%;
+}
+
+.description {
+    display: flex;
+    background-color: lightgreen;
+}
+
+.description .description-text {
+    width: 40%;
+}
+
+.description .description-img {
+    width: 60%;
+}
+
+
+.container.table {
+    margin-top: 35px;
+}
+
 /*
     FOOTER
 */
 
-/*
+ /*
     DEBUG
-*/
+ */
