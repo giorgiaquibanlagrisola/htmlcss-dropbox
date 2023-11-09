@@ -33,8 +33,9 @@ html {
     background-color: gray;
 }
 
+
 .container {
-    max-width: 60%;
+    max-width: 58%;
     margin: 0 auto;
     background-color: blue;
 
@@ -53,8 +54,8 @@ html {
 .main-nav {
     display: flex;
     justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .main-nav nav ul li {
     display: inline-block;
@@ -62,26 +63,30 @@ html {
 }
 
 .main-nav nav ul li a {
-    display: inline-block;
+   /* display: inline-block;*/
     color: black;
     text-decoration: none;
-    padding: 20px 20px;
+    font-size: small;
+    padding: 10px 10px;
 }
 
 /*
     MAIN
 */
 
-.container.title {
+.container-title {
+    margin: 0 auto;
+    max-width: 60%;
+    min-height: 300px;
     background-color: red;
     transform: translateY(35px);
 }
 
-/*
+
 h1 {
     font-size: 400%;
 }
-*/
+
 
 .jumbo-container {
    /* position: relative;*/
@@ -104,6 +109,38 @@ h1 {
 
 .container.table {
     margin-top: 35px;
+}
+
+h2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#radio-button {
+    margin-bottom: 3%;
+}
+
+#scheme {
+    display: flex;
+    justify-content: space-between;
+}
+
+#scheme > * {
+    width: 30%;
+    border: 1px solid red;
+    padding: 1%;
+}
+
+.scheme-body ul li {
+    list-style-type: none;
+
+}
+
+#try-for-free {
+    background-color: #0061FF;
+    color: white;
+    padding: 2% 4%;
+    border: none;
 }
 
 /*
