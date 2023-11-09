@@ -14,7 +14,61 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.full-container {
+    width: 100%;
+    background-color: white;
 }
+
+/*
+.full-container.header {
+    position: sticky;
+}*/
+
+
+.full-container.main {
+    background-color: blueviolet;
+}
+.full-container.footer {
+    background-color: gray;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: blue;
+
+    height: 300px;
+}
+
+/*
+    HEADER
+*/
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.main-nav nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main-nav nav ul li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+/*
+    MAIN
+*/
+
+/*
+    FOOTER
+*/
+
+/*
+    DEBUG
+*/
