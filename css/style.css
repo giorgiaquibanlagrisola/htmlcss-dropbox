@@ -11,7 +11,7 @@
    GENERAL
 */
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 .full-container {
@@ -37,9 +37,6 @@ html {
 .container {
     max-width: 58%;
     margin: 0 auto;
-    background-color: blue;
-
-    min-height: 300px;
 }
 
 /*
@@ -68,12 +65,13 @@ html {
     MAIN
 */
 
+/*FIRST CONTAINER*/
+
 .container-title {
     margin: 0 auto;
     max-width: 60%;
     min-height: 300px;
-    background-color: red;
-    transform: translateY(35px);
+    transform: translateY(60px);
 }
 
 
@@ -89,27 +87,28 @@ h1 {
 
 .description {
     display: flex;
-    background-color: lightgreen;
+    padding-top: 5%;
 }
 
 .description .description-text {
-    width: 40%;
+    width: 30%;
 }
 
 .description .description-img {
-    width: 60%;
+    width: 70%;
 }
 .description .description-img img {
     width: 100%;
 }
 
+/* TABLE CONTAINER */
 
 .container.table {
     margin-top: 35px;
 }
 
 h2 {
-    padding-top: 3%;
+    padding-top: 8%;
     padding-bottom: 3%;
 }
 
@@ -124,27 +123,74 @@ h2 {
 
 #scheme > * {
     width: 30%;
-    border: 1px solid red;
+    border: 1px solid grey;
+}
+
+.scheme-head {
+    text-align: center;
+    border-bottom: 1px solid grey;
     padding: 1%;
+}
+.scheme-body {    
+    padding: 5%;
 }
 
 .scheme-body ul li {
     list-style-type: none;
+    padding: 4%;
 
+}
+
+.scheme-body h3, p, {
+    padding: 4% 0;
+}
+
+.scheme-body hr {
+    color: grey;
+    width: 20%;
+    margin: 10% 0;
 }
 
 #try-for-free {
+    width: 100%;
     background-color: #0061FF;
     color: white;
-    padding: 2% 4%;
+    margin: 8% 0;
+    padding: 4%;
     border: none;
 }
 
-/*PARTNER SECTION*/
+/*   SALES OFFICE   */
+
+.sales-office {
+    margin: 3% 0;
+}
+
+.sales-container {
+    display: flex;
+    border: 1px solid grey;
+    padding: 2%;
+}
+
+.sales-head {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+.sales-text {
+    width: 70%;
+}
+.sales-button {
+    width: 30%;
+}
+
+
+/*PARTNER CONTAINER*/
 
 .container.partner {
     display: flex;
-    margin-bottom: 2%;
+    padding: 6% 0;
 }
 
 .partner-img {
@@ -169,7 +215,8 @@ h2 {
     padding: 2% 3%;
 }
 
-/*CARD SECTION*/
+/*OPERATIONS CONTAINER*/
+
 .operations-card-container {
     display: flex;
     justify-content: space-between;
@@ -178,22 +225,31 @@ h2 {
 
 .operations-card-container > * {
     width: 30%;
-    border: 1px solid red;
     padding: 1%;
+}
+
+.operation-card-text h3, p {
+    padding: 4% 0;
 }
 
 .operation-card .operation-card-img img {
     width: 100%;
 }
 
+/*BOTTOM TITLE*/
+
+.bottom-title {
+    padding-bottom: 5%;
+}
 .bottom-title h2 {
     padding-right: 50%;
-    margin-top: 10%;
+    margin-top: 6%;
     margin-bottom: 1%;
 }
 
 
 /*LOGOS SECTION*/
+
 .full-container.main-bot {
     display: flex;
 }
@@ -221,12 +277,6 @@ h2 {
     width: 50%;
     filter: invert(1);
 }
-
-/*.container-logos img {
-    color: white;
-}*/
-
-
 
 .logo-up-left.left {
     background-color: #A2D39B;
@@ -257,8 +307,9 @@ h2 {
 .logo-down-right.right {
     background-color: #FFD830;
 }
-/*
-*/
+
+
+/*BUTTON CONTAINER*/
 
 #button-container {
     display: flex;
@@ -274,6 +325,31 @@ h2 {
     padding: 2% 4%;
     border: none;
     background-color: white;
+}
+
+/*FAQ CONTAINERS*/
+
+.faq > * {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 1% 0;
+    padding-right: 1%;
+
+}
+.faq:last-child {
+    border-bottom: 1px solid black;
+}
+
+.faq p {
+    font-weight: bold;
+}
+
+.questions {
+    padding: 15% 0;
+}
+.questions h2 {
+    font-size: xx-large;
 }
 
 /*
