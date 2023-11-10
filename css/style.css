@@ -146,6 +146,8 @@ h2 {
     border: none;
 }
 
+/*PARTNER SECTION*/
+
 .container.partner {
     display: flex;
 }
@@ -170,6 +172,22 @@ h2 {
 #find-partner {
     margin-top: 8%;
     padding: 2% 3%;
+}
+
+/*CARD SECTION*/
+.operations-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operations-card-container > * {
+    width: 30%;
+    border: 1px solid red;
+    padding: 1%;
+}
+
+.operation-card .operation-card-img img {
+    width: 100%;
 }
 
 /*
