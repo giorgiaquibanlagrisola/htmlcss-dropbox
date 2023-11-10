@@ -30,7 +30,7 @@ html {
 }
 
 .full-container.footer {
-    background-color: gray;
+    background-color: black;
 }
 
 
@@ -41,12 +41,6 @@ html {
 
     min-height: 300px;
 }
-.container.table {
-    background-color: yellow;
-    
-}
-
-
 
 /*
     HEADER
@@ -179,6 +173,7 @@ h2 {
 .operations-card-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3%;
 }
 
 .operations-card-container > * {
@@ -197,22 +192,133 @@ h2 {
     margin-bottom: 1%;
 }
 
+
 /*LOGOS SECTION*/
+.full-container.main-bot {
+    display: flex;
+}
+.container-logos {
+    width: calc(100vw / 3);
+    height: calc((100vw / 3));
+}
+.container-logos.left, .container-logos.right {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-up-left, .logo-up-right {
+    display: flex;
+    width: calc(100% / 2);
+
+}
+.logo-down-left, .logo-down-right {
+    display: flex;
+    width: calc(100% / 2);
+
+}
+.center {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    filter: invert(1);
+}
+
+/*.container-logos img {
+    color: white;
+}*/
+
+
+
+.logo-up-left.left {
+    background-color: #A2D39B;
+}
+.logo-up-left.right {
+    background-color: #61082B;
+}
+.logo-down-left.left {
+    background-color: #0093CE;
+}
+.logo-down-left.right {
+    background-color: #FF1C1C;
+}
+
+.container-logos.center {
+    background-color: #F5F5F5;
+}
+
+.logo-up-right.left {
+    background-color: #D5001F;
+}
+.logo-up-right.right {
+    background-color: #B4D0E7;
+}
+.logo-down-right.left {
+    background-color: #0D2481;
+}
+.logo-down-right.right {
+    background-color: #FFD830;
+}
+/*
+*/
+
+#button-container {
+    display: flex;
+    justify-content: right;
+}
+.container-button {
+    width: 50%;
+    height: fit-content;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#free-trial {
+    padding: 2% 4%;
+    border: none;
+    background-color: white;
+}
 
 /*
     FOOTER
 */
-.footer-container {
+/*
+.container.footer-container {
     display: flex;
+    justify-content: space-between;
 
+}*/
+/*
+.foot-container {
+    width: 60%;
+
+}*/
+
+.column-list {
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer-container > *{
-    width: calc(100% / 5);
-    background-color: pink;
-    border: 1px solid red;
+.column-list > *{
+    width: 18%;
 }
+.foot-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.footer-head {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.footer-body ul li {
+    list-style-type: none;
+    font-size: medium;
+    padding-top: 3%;
 
+}
+#footer-top, #footer-bottom {
+    color: white;
+    background-color: black;
+    font-size: small;
+}
 #footer-bottom {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
