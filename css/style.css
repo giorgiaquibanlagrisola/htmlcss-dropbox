@@ -146,6 +146,23 @@ h2 {
 /*
     FOOTER
 */
+.footer-container {
+    display: flex;
+
+}
+
+.footer-container > *{
+    width: calc(100% / 5);
+    background-color: pink;
+    border: 1px solid red;
+}
+
+#footer-bottom {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+
 
  /*
     DEBUG
