@@ -150,6 +150,7 @@ h2 {
 
 .container.partner {
     display: flex;
+    margin-bottom: 2%;
 }
 
 .partner-img {
@@ -189,6 +190,14 @@ h2 {
 .operation-card .operation-card-img img {
     width: 100%;
 }
+
+.bottom-title h2 {
+    padding-right: 50%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+/*LOGOS SECTION*/
 
 /*
     FOOTER
